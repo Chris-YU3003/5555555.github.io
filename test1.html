@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Restaurant Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#opening-hours">Opening Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Restaurant Name</h1>
+      <p>Delicious food served with passion</p>
+      <a href="#menu" class="btn-get-started">View Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Menu</h2>
+        <p>Check out our delicious menu</p>
+      </div>
+      <!-- Menu items with prices -->
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="menu-item">
+            <div class="menu-content">
+              <a href="#">Menu Item 1</a><span>$10.99</span>
+            </div>
+            <div class="menu-ingredients">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="menu-item">
+            <div class="menu-content">
+              <a href="#">Menu Item 2</a><span>$8.99</span>
+            </div>
+            <div class="menu-ingredients">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+        <!-- Add more menu items here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Opening Hours Section -->
+  <section id="opening-hours">
+    <div class="container">
+      <div class="section-header">
+        <h2>Opening Hours</h2>
+        <p>Check out our opening hours</p>
+      </div>
+      <div class="row opening-hours-row">
+        <div class="col-md-6">
+          <div class="opening-hours">
+            <h3>Monday - Friday</h3>
+            <p>9:00 AM - 10:00 PM</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="opening-hours">
+            <h3>Saturday - Sunday</h3>
+            <p>10:00 AM - 11:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Information</h2>
+        <p>Contact us for reservations or any inquiries</p>
+      </div>
+      <div class="row contact-info">
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>123 Street, City, State, Postal Code</address>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:info@restaurant.com">info@restaurant.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section id="customer-reviews">
+    <div class="container">
+      <div class="section-header">
+        <h2>Customer Reviews</h2>
+        <p>What our customers say about us</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="review">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </blockquote>
+            <div class="review-author">
+              <img src="customer1.jpg" alt="Customer 1" class="rounded-circle">
+              <h4>John Doe</h4>
+              <p>Happy Customer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="review">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </blockquote>
+            <div class="review-author">
+              <img src="customer2.jpg" alt="Customer 2" class="rounded-circle">
+              <h4>Jane Smith</h4>
+              <p>Satisfied Customer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more customer reviews here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Delicacy Recommendation Section -->
+  <section id="delicacy-recommendation">
+    <div class="container">
+      <div class="section-header">
+        <h2>Delicacy Recommendation</h2>
+        <p>Try our special delicacy</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="delicacy">
+            <img src="delicacy1.jpg" alt="Delicacy 1">
+            <h3>Delicacy 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="delicacy">
+            <img src="delicacy2.jpg" alt="Delicacy 2">
+            <h3>Delicacy 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <!-- Add more delicacies here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-logo">
+            <a href="#">Restaurant Name</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
